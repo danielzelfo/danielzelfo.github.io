@@ -43,101 +43,101 @@
         text-align: center;
         cursor: pointer; }
     #grid .row .todoList::before {
-      background-image: url("../portfolio/img/todo1.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/todo1.png"); }
     #grid .row .todoListHovered::after {
       content: "To-do List"; }
     #grid .row .neighborBank::before {
-      background-image: url("../portfolio/img/neighborBankCover.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/neighborBankCover.png"); }
     #grid .row .neighborBankHovered::before {
-      background-image: url("../portfolio/img/neighborBankCreate.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/neighborBankCreate.png"); }
     #grid .row .neighborBankHovered::after {
       content: "Friendly Neighborhood Bank"; }
     #grid .row .encrytion::before {
-      background-image: url("../portfolio/img/encryption1.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/encryption1.png"); }
     #grid .row .encrytionHovered::before {
-      background-image: url("../portfolio/img/encryption2.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/encryption2.png"); }
     #grid .row .encrytionHovered::after {
       content: "Encryption Using Matrices"; }
     #grid .row .opbot::before {
-      background-image: url("../portfolio/img/oPBoT.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/oPBoT.png"); }
     #grid .row .opbotHovered::after {
       content: "oPBoT"; }
     #grid .row .simonSays::before {
-      background-image: url("../portfolio/img/simon.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/simon.png"); }
     #grid .row .simonSaysHovered::after {
       content: "Simon Says"; }
     #grid .row .websiteTemplates::before {
-      background-image: url("../portfolio/img/web.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/web.png"); }
     #grid .row .websiteTemplatesHovered::after {
       content: "Website Templates"; }
     #grid .row .loadingAnimations::before {
-      background-image: url("../portfolio/img/load.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/load.png"); }
     #grid .row .loadingAnimationsHovered::after {
       content: "Loading Animations"; }
     #grid .row .vacationRental::before {
-      background-image: url("../portfolio/img/vacation.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/vacation.png"); }
     #grid .row .vacationRentalHovered::after {
       content: "Vacation Rental Cost"; }
     #grid .row .paint::before {
-      background-image: url("../portfolio/img/paintPX.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/paintPX.png"); }
     #grid .row .paintHovered::after {
       content: "Paint"; }
     #grid .row .insurancePrice::before {
-      background-image: url("../portfolio/img/insurance.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/insurance.png"); }
     #grid .row .insurancePriceHovered::after {
       content: "Insurance Price Calculator"; }
     #grid .row .scheduler::before {
-      background-image: url("../portfolio/img/availability.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/availability.png"); }
     #grid .row .schedulerHovered::after {
       content: "Employee Scheduler"; }
     #grid .row .studentGrades::before {
-      background-image: url("../portfolio/img/studentGrades.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/studentGrades.png"); }
     #grid .row .studentGradesHovered::after {
       content: "Student Grades Program"; }
     #grid .row .wearableWeather::before {
-      background-image: url("../portfolio/img/wearableWeather.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/wearableWeather.png"); }
     #grid .row .wearableWeatherHovered::before {
-      background-image: url("../portfolio/img/wearableWeatherLive.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/wearableWeatherLive.png"); }
     #grid .row .wearableWeatherHovered::after {
       content: "Wearable Weather"; }
     #grid .row .sortingAnimations::before {
-      background-image: url("../portfolio/img/sortingAnim/selectrand.PNG"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/sortingAnim/selectrand.PNG"); }
     #grid .row .sortingAnimationsHovered::before {
-      background-image: url("../portfolio/img/sortingAnim/selectrand.gif"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/sortingAnim/selectrand.gif"); }
     #grid .row .sortingAnimationsHovered::after {
       content: "Sorting Animations"; }
     #grid .row .mountieBot::before {
-      background-image: url("../portfolio/img/mountieBot/classes.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/mountieBot/classes.png"); }
     #grid .row .mountieBotHovered::before {
-      background-image: url("../portfolio/img/mountieBot/roles.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/mountieBot/roles.png"); }
     #grid .row .mountieBotHovered::after {
       content: "MouniteBot"; }
     #grid .row .cppPrograms::before {
-      background-image: url("../portfolio/img/cppCode.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/cppCode.png"); }
     #grid .row .cppProgramsHovered::after {
       content: "C++ Programs"; }
     #grid .row .shopSupreme::before {
-      background-image: url("../portfolio/img/ShopSupreme/shopsupreme.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/ShopSupreme/shopsupreme.png"); }
     #grid .row .shopSupremeHovered::before {
-      background-image: url("../portfolio/img/ShopSupreme/shopsupremedesign.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/ShopSupreme/shopsupremedesign.png"); }
     #grid .row .shopSupremeHovered::after {
       content: "ShopSupreme"; }
     #grid .row .dynamite::before {
-      background-image: url("../portfolio/img/dynamite/dynamite-2.jpg"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/dynamite/dynamite-2.jpg"); }
     #grid .row .dynamiteHovered::before {
-      background-image: url("../portfolio/img/dynamite/dynamite-3.jpg"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/dynamite/dynamite-3.jpg"); }
     #grid .row .dynamiteHovered::after {
       content: "Dynamite"; }
     #grid .row .astra::before {
-      background-image: url("../portfolio/img/astra/astracommands1.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/astra/astracommands1.png"); }
     #grid .row .astraHovered::before {
-      background-image: url("../portfolio/img/astra/amazon3080.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/astra/amazon3080.png"); }
     #grid .row .astraHovered::after {
       content: "Astra"; }
     #grid .row .mipsSudoku::before {
-      background-image: url("../portfolio/img/mipsSudoku/mipsSudoku4.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/mipsSudoku/mipsSudoku4.png"); }
     #grid .row .mipsSudokuHovered::before {
-      background-image: url("../portfolio/img/mipsSudoku/mipsSudoku5.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/mipsSudoku/mipsSudoku5.png"); }
     #grid .row .mipsSudokuHovered::after {
       content: "MIPS Sudoku"; }
     #grid .row .cellHovered::before {

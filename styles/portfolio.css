@@ -43,49 +43,49 @@
         text-align: center;
         cursor: pointer; }
     #grid .row .wearableWeather::before {
-      background-image: url("../portfolio/img/wearableWeather.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/wearableWeather.png"); }
     #grid .row .wearableWeatherHovered::before {
-      background-image: url("../portfolio/img/wearableWeatherLive.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/wearableWeatherLive.png"); }
     #grid .row .wearableWeatherHovered::after {
       content: "Wearable Weather"; }
     #grid .row .sortingAnimations::before {
-      background-image: url("../portfolio/img/sortingAnim/selectrand.PNG"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/sortingAnim/selectrand.PNG"); }
     #grid .row .sortingAnimationsHovered::before {
-      background-image: url("../portfolio/img/sortingAnim/selectrand.gif"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/sortingAnim/selectrand.gif"); }
     #grid .row .sortingAnimationsHovered::after {
       content: "Sorting Animations"; }
     #grid .row .mountieBot::before {
-      background-image: url("../portfolio/img/mountieBot/classes.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/mountieBot/classes.png"); }
     #grid .row .mountieBotHovered::before {
-      background-image: url("../portfolio/img/mountieBot/roles.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/mountieBot/roles.png"); }
     #grid .row .mountieBotHovered::after {
       content: "MouniteBot"; }
     #grid .row .cppPrograms::before {
-      background-image: url("../portfolio/img/cppCode.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/cppCode.png"); }
     #grid .row .cppProgramsHovered::after {
       content: "C++ Programs"; }
     #grid .row .shopSupreme::before {
-      background-image: url("../portfolio/img/ShopSupreme/shopsupreme.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/ShopSupreme/shopsupreme.png"); }
     #grid .row .shopSupremeHovered::before {
-      background-image: url("../portfolio/img/ShopSupreme/shopsupremedesign.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/ShopSupreme/shopsupremedesign.png"); }
     #grid .row .shopSupremeHovered::after {
       content: "ShopSupreme"; }
     #grid .row .dynamite::before {
-      background-image: url("../portfolio/img/dynamite/dynamite-2.jpg"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/dynamite/dynamite-2.jpg"); }
     #grid .row .dynamiteHovered::before {
-      background-image: url("../portfolio/img/dynamite/dynamite-3.jpg"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/dynamite/dynamite-3.jpg"); }
     #grid .row .dynamiteHovered::after {
       content: "Dynamite"; }
     #grid .row .astra::before {
-      background-image: url("../portfolio/img/astra/astracommands1.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/astra/astracommands1.png"); }
     #grid .row .astraHovered::before {
-      background-image: url("../portfolio/img/astra/amazon3080.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/astra/amazon3080.png"); }
     #grid .row .astraHovered::after {
       content: "Astra"; }
     #grid .row .mipsSudoku::before {
-      background-image: url("../portfolio/img/mipsSudoku/mipsSudoku4.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/mipsSudoku/mipsSudoku4.png"); }
     #grid .row .mipsSudokuHovered::before {
-      background-image: url("../portfolio/img/mipsSudoku/mipsSudoku5.png"); }
+      background-image: url("https://danielzelfo.github.io/portfolio/img/mipsSudoku/mipsSudoku5.png"); }
     #grid .row .mipsSudokuHovered::after {
       content: "MIPS Sudoku"; }
     #grid .row .cellHovered::before {
