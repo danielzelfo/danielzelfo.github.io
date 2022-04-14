@@ -4,7 +4,7 @@
   		#announcementDemo {
   			cursor: pointer;
   			z-index: 2;
-  			content: url(../img/shopsupreme.png);
+  			content: url("https://danielzelfo.github.io/img/shopsupreme.png");
   			width: 33%;
   			position: relative;
   			left: 50%;
@@ -19,7 +19,7 @@
   		#announcementDemo2 {
   			cursor: pointer;
   			z-index: 1;
-  			content: url(../img/shopsupreme2.png);
+  			content: url("https://danielzelfo.github.io/img/shopsupreme2.png");
   			width: 33%;
   			position: relative;
   			left: 50%;

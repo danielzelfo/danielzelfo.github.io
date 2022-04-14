@@ -1,8 +1,7 @@
 body {
   text-align: center;
   display: block;
-  font-family: Arial Black;
-}
+  font-family: Arial Black; }
 
 #signupA {
   position: absolute;
@@ -13,8 +12,7 @@ body {
   border-radius: 5px;
   text-decoration: none;
   animation: pulse 0.5s ease-in;
-  animation-iteration-count: 5;
-}
+  animation-iteration-count: 5; }
 
 #webdev {
   width: 100%;
@@ -25,142 +23,111 @@ body {
   position: relative;
   left: 0;
   top: 0;
-  /* DivTable.com */
-}
-#webdev .divTable {
-  display: table;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-#webdev .divTableRow {
-  display: table-row;
-}
-#webdev .divTableHeading {
-  background-color: #EEE;
-  display: table-header-group;
-}
-#webdev .divTableCell, #webdev .divTableHead {
-  border: 1px solid #999999;
-  display: table-cell;
-  padding: 3px 10px;
-}
-#webdev .divTableHeading {
-  background-color: #EEE;
-  display: table-header-group;
-  font-weight: bold;
-}
-#webdev .divTableFoot {
-  background-color: #EEE;
-  display: table-footer-group;
-  font-weight: bold;
-}
-#webdev .divTableBody {
-  display: table-row-group;
-}
-#webdev .content {
-  left: 0;
-  top: 0;
-  position: relative;
-  background: linear-gradient(to bottom, #202020, #111119);
-  z-index: 0;
-  border-radius: 5px;
-  color: white;
-  padding: 1rem;
-}
-#webdev .content .title {
-  text-align: center;
-}
-#webdev .content .desc .price {
-  color: red;
-  text-align: center;
-}
-#webdev .content .desc p:not(.price) {
-  font-family: Arial;
-  margin: 0;
-  padding: 0;
-}
-#webdev .content .list li {
-  font-family: Arial;
-  line-height: 200%;
-  font-size: 1.25em;
-}
-#webdev .content .list li a, #webdev .content .list li a:visited {
-  color: #b19cd9;
-}
-#webdev .content .list .sub {
-  margin-left: 20px;
-  list-style-type: square;
-}
-#webdev .content::before {
-  position: absolute;
-  display: block;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  background-image: url("../img/rain.png");
-  z-index: -1;
-  border-radius: 5px;
-  content: '';
-  opacity: 0.5;
-  animation: rainAnimate 0.75s linear infinite;
-}
-#webdev .work {
-  text-align: center;
-}
-#webdev .work .danielzelfo {
-  margin-right: 25px;
-}
-#webdev .work .globalbrands {
-  margin-right: 25px;
-}
-#webdev .work .danielzelfo, #webdev .work .globalbrands {
-  display: inline-block;
-  vertical-align: middle;
-  border: 1px solid white;
-  border-radius: 50%;
-  padding: 60px;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-#webdev .work .danielzelfo h3, #webdev .work .globalbrands h3 {
-  color: white;
-}
+  /* DivTable.com */ }
+  #webdev .divTable {
+    display: table;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); }
+  #webdev .divTableRow {
+    display: table-row; }
+  #webdev .divTableHeading {
+    background-color: #EEE;
+    display: table-header-group; }
+  #webdev .divTableCell, #webdev .divTableHead {
+    border: 1px solid #999999;
+    display: table-cell;
+    padding: 3px 10px; }
+  #webdev .divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+    font-weight: bold; }
+  #webdev .divTableFoot {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold; }
+  #webdev .divTableBody {
+    display: table-row-group; }
+  #webdev .content {
+    left: 0;
+    top: 0;
+    position: relative;
+    background: linear-gradient(to bottom, #202020, #111119);
+    z-index: 0;
+    border-radius: 5px;
+    color: white;
+    padding: 1rem; }
+    #webdev .content .title {
+      text-align: center; }
+    #webdev .content .desc .price {
+      color: red;
+      text-align: center; }
+    #webdev .content .desc p:not(.price) {
+      font-family: Arial;
+      margin: 0;
+      padding: 0; }
+    #webdev .content .list li {
+      font-family: Arial;
+      line-height: 200%;
+      font-size: 1.25em; }
+      #webdev .content .list li a, #webdev .content .list li a:visited {
+        color: #b19cd9; }
+    #webdev .content .list .sub {
+      margin-left: 20px;
+      list-style-type: square; }
+  #webdev .content::before {
+    position: absolute;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background-image: url("https://danielzelfo.github.io/img/rain.png");
+    z-index: -1;
+    border-radius: 5px;
+    content: '';
+    opacity: 0.5;
+    animation: rainAnimate 0.75s linear infinite; }
+  #webdev .work {
+    text-align: center; }
+    #webdev .work .danielzelfo {
+      margin-right: 25px; }
+    #webdev .work .globalbrands {
+      margin-right: 25px; }
+    #webdev .work .danielzelfo, #webdev .work .globalbrands {
+      display: inline-block;
+      vertical-align: middle;
+      border: 1px solid white;
+      border-radius: 50%;
+      padding: 60px;
+      background-color: rgba(0, 0, 0, 0.5); }
+      #webdev .work .danielzelfo h3, #webdev .work .globalbrands h3 {
+        color: white; }
 
 #email, #emailme {
   background-color: rgba(255, 255, 255, 0.75);
   border: 1px solid rgba(0, 0, 0, 0.75);
   border-radius: 7.5px;
   padding: 2.5px;
-  display: inline-flex;
-}
+  display: inline-flex; }
 
 #emailme {
   font-weight: bold;
-  color: red;
-}
-#emailme:hover {
-  color: black;
-  background-color: white;
-  border: 1px solid black;
-}
+  color: red; }
+  #emailme:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black; }
 
 #sendemail #form input {
-  padding: 10px;
-}
+  padding: 10px; }
 
 @keyframes rainAnimate {
   from {
-    background-position: 0% 0%;
-  }
+    background-position: 0% 0%; }
   to {
-    background-position: -15% 100%;
-  }
-}
+    background-position: -15% 100%; } }
 @keyframes pulse {
   25% {
-    transform: translate(-50%) scale(0.9);
-  }
+    transform: translate(-50%) scale(0.9); }
   75% {
-    transform: translate(-50%) scale(1.1);
-  }
-}
+    transform: translate(-50%) scale(1.1); } }
