@@ -1,0 +1,61 @@
+body {
+  text-align: center;
+  display: block;
+  font-family: Arial Black; }
+
+#tutoring {
+  margin-top: 120px;
+  background-color: white;
+  background-image: url(https://c1.wallpaperflare.com/preview/932/467/825/books-education-school-literature.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 10px;
+  line-height: 200%;
+  text-align: left;
+  border-radius: 5px;
+  color: black; }
+  #tutoring li {
+    list-style-type: none; }
+  #tutoring li.subj {
+    font-size: 30px; }
+  #tutoring li.sub {
+    position: relative;
+    left: 10px; }
+    #tutoring li.sub:not(.classes) {
+      list-style-type: "- ";
+      font-weight: bold; }
+  #tutoring li.subsub {
+    position: relative;
+    left: 20px; }
+  #tutoring div.className {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: default;
+    line-height: 100%;
+    font-family: Arial; }
+    #tutoring div.className:hover {
+      background-color: rgba(0, 0, 0, 0.5); }
+
+#email, #emailme {
+  background-color: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(0, 0, 0, 0.75);
+  border-radius: 7.5px;
+  padding: 2.5px;
+  display: inline-flex; }
+
+#emailme {
+  font-weight: bold;
+  color: red; }
+  #emailme:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black; }
+
+footer {
+  position: absolute;
+  top: auto;
+  bottom: 0; }

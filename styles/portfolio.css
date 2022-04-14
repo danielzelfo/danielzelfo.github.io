@@ -1,0 +1,132 @@
+#grid {
+  margin-top: 150px;
+  position: relative;
+  width: 100%;
+  border-radius: 5px;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  #grid .row {
+    position: relative;
+    display: block;
+    font-size: 0; }
+    #grid .row .cell {
+      position: inherit;
+      display: inline-block;
+      width: 24%;
+      background-repeat: no-repeat;
+      background-size: auto;
+      background-position: center;
+      overflow: hidden; }
+      #grid .row .cell:not(.dummy) {
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); }
+      #grid .row .cell::before {
+        top: 0;
+        left: 0;
+        content: "";
+        position: absolute;
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center; }
+      #grid .row .cell::after {
+        position: absolute;
+        left: 0;
+        font: bold 20px Arial;
+        color: white;
+        width: 100%;
+        height: 100%;
+        line-height: 50vh;
+        text-align: center;
+        cursor: pointer; }
+    #grid .row .wearableWeather::before {
+      background-image: url("../portfolio/img/wearableWeather.png"); }
+    #grid .row .wearableWeatherHovered::before {
+      background-image: url("../portfolio/img/wearableWeatherLive.png"); }
+    #grid .row .wearableWeatherHovered::after {
+      content: "Wearable Weather"; }
+    #grid .row .sortingAnimations::before {
+      background-image: url("../portfolio/img/sortingAnim/selectrand.PNG"); }
+    #grid .row .sortingAnimationsHovered::before {
+      background-image: url("../portfolio/img/sortingAnim/selectrand.gif"); }
+    #grid .row .sortingAnimationsHovered::after {
+      content: "Sorting Animations"; }
+    #grid .row .mountieBot::before {
+      background-image: url("../portfolio/img/mountieBot/classes.png"); }
+    #grid .row .mountieBotHovered::before {
+      background-image: url("../portfolio/img/mountieBot/roles.png"); }
+    #grid .row .mountieBotHovered::after {
+      content: "MouniteBot"; }
+    #grid .row .cppPrograms::before {
+      background-image: url("../portfolio/img/cppCode.png"); }
+    #grid .row .cppProgramsHovered::after {
+      content: "C++ Programs"; }
+    #grid .row .shopSupreme::before {
+      background-image: url("../portfolio/img/ShopSupreme/shopsupreme.png"); }
+    #grid .row .shopSupremeHovered::before {
+      background-image: url("../portfolio/img/ShopSupreme/shopsupremedesign.png"); }
+    #grid .row .shopSupremeHovered::after {
+      content: "ShopSupreme"; }
+    #grid .row .dynamite::before {
+      background-image: url("../portfolio/img/dynamite/dynamite-2.jpg"); }
+    #grid .row .dynamiteHovered::before {
+      background-image: url("../portfolio/img/dynamite/dynamite-3.jpg"); }
+    #grid .row .dynamiteHovered::after {
+      content: "Dynamite"; }
+    #grid .row .astra::before {
+      background-image: url("../portfolio/img/astra/astracommands1.png"); }
+    #grid .row .astraHovered::before {
+      background-image: url("../portfolio/img/astra/amazon3080.png"); }
+    #grid .row .astraHovered::after {
+      content: "Astra"; }
+    #grid .row .mipsSudoku::before {
+      background-image: url("../portfolio/img/mipsSudoku/mipsSudoku4.png"); }
+    #grid .row .mipsSudokuHovered::before {
+      background-image: url("../portfolio/img/mipsSudoku/mipsSudoku5.png"); }
+    #grid .row .mipsSudokuHovered::after {
+      content: "MIPS Sudoku"; }
+    #grid .row .cellHovered::before {
+      animation: tilt 1s forwards; }
+    #grid .row .cellHovered::after {
+      animation: grey .5s forwards; }
+
+.black span:hover {
+  color: #0366d6  !important;
+  background-color: white;
+  border: 1px solid black;
+  padding: 4px; }
+
+.more {
+  text-align: center; }
+
+@media only screen and (max-aspect-ratio: 3 / 2) {
+  .nonMobile {
+    display: none !important; }
+
+  #grid .row .nonMobile {
+    display: none !important; }
+
+  .row .cell {
+    width: 90% !important;
+    display: block !important; } }
+@keyframes grey {
+  from {
+    background-color: none; }
+  to {
+    background-color: rgba(128, 128, 128, 0.5); } }
+@keyframes tilt {
+  from {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: rotate(0); }
+  to {
+    width: 110%;
+    height: 110%;
+    top: -5%;
+    left: -5%;
+    transform: rotate(6deg); } }
