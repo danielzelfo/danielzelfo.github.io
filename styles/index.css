@@ -108,27 +108,27 @@ h1, h2 {
       transform: translate(-50%);
       cursor: pointer; }
   .row .wearableWeather::before {
-    background-image: url("https://danielzelfo.github.io/portfolio/img/wearableWeather.png"); }
+    background-image: url("https://danielzelfo.github.io/img/min/portfolio/wearableWeather.png"); }
   .row .wearableWeatherHovered::before {
-    background-image: url("https://danielzelfo.github.io/portfolio/img/wearableWeatherLive.png"); }
+    background-image: url("https://danielzelfo.github.io/img/min/portfolio/wearableWeatherLive.png"); }
   .row .wearableWeatherHovered::after {
     content: "Wearable Weather"; }
   .row .sortingAnimations::before {
-    background-image: url("https://danielzelfo.github.io/portfolio/img/sortingAnim/selectrand.PNG"); }
+    background-image: url("https://danielzelfo.github.io/img/min/portfolio/sortingAnim/selectrand.PNG"); }
   .row .sortingAnimationsHovered::before {
-    background-image: url("https://danielzelfo.github.io/portfolio/img/sortingAnim/selectrand.gif"); }
+    background-image: url("https://danielzelfo.github.io/img/min/portfolio/sortingAnim/selectrand.gif"); }
   .row .sortingAnimationsHovered::after {
     content: "Sorting Animations"; }
   .row .mipsSudoku::before {
-    background-image: url("https://danielzelfo.github.io/portfolio/img/mipsSudoku/mipsSudoku4.png"); }
+    background-image: url("https://danielzelfo.github.io/img/min/portfolio/mipsSudoku/mipsSudoku4.png"); }
   .row .mipsSudokuHovered::before {
-    background-image: url("https://danielzelfo.github.io/portfolio/img/mipsSudoku/mipsSudoku5.png"); }
+    background-image: url("https://danielzelfo.github.io/img/min/portfolio/mipsSudoku/mipsSudoku5.png"); }
   .row .mipsSudokuHovered::after {
     content: "MIPS Sudoku"; }
   .row .astra::before {
-    background-image: url("https://danielzelfo.github.io/portfolio/img/astra/astracommands1.png"); }
+    background-image: url("https://danielzelfo.github.io/img/min/portfolio/astra/astracommands1.png"); }
   .row .astraHovered::before {
-    background-image: url("https://danielzelfo.github.io/portfolio/img/astra/amazon3080.png"); }
+    background-image: url("https://danielzelfo.github.io/img/min/portfolio/astra/amazon3080.png"); }
   .row .astraHovered::after {
     content: "Astra"; }
   .row .cellHovered::before {
