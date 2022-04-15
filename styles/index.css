@@ -4,7 +4,7 @@
   		#announcementDemo {
   			cursor: pointer;
   			z-index: 2;
-  			content: url("https://danielzelfo.github.io/img/shopsupreme.png");
+  			content: url("https://danielzelfo.github.io/img/min/shopsupreme.png");
   			width: 33%;
   			position: relative;
   			left: 50%;
@@ -19,7 +19,7 @@
   		#announcementDemo2 {
   			cursor: pointer;
   			z-index: 1;
-  			content: url("https://danielzelfo.github.io/img/shopsupreme2.png");
+  			content: url("https://danielzelfo.github.io/img/min/shopsupreme2.png");
   			width: 33%;
   			position: relative;
   			left: 50%;
@@ -189,14 +189,14 @@ h1, h2 {
 		}
 		.left-half {
 		  	background-color: #DBAD76;
-			background-image: url("https://danielzelfo.github.io/img/service_webdev.jpg");
+			background-image: url("https://danielzelfo.github.io/img/min/service_webdev.jpg");
 			color: $lightColorLight;
 			text-shadow: 0px 0px 10px black;
 		}
 
 		.right-half {
 			background-color: $lightColorLight;
-			background-image: url("https://danielzelfo.github.io/img/service_tutoring.jpg");
+			background-image: url("https://danielzelfo.github.io/img/min/service_tutoring.jpg");
 		    color: black;
 			text-shadow: 0px 0px 10px $lightColorLight;
 		}

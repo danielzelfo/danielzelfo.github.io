@@ -81,7 +81,7 @@ body {
     width: 100%;
     left: 0;
     top: 0;
-    background-image: url("https://danielzelfo.github.io/img/rain.png");
+    background-image: url("https://danielzelfo.github.io/img/min/rain.png");
     z-index: -1;
     border-radius: 5px;
     content: '';
